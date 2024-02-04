@@ -6,5 +6,25 @@
     <title>Activitat 2</title>
 </head>
 <body>
+    <label>¿Que marca de Smartphone desea buscar?
+        <input list="smartphone" type="text" name="marca">
+    </label>
+    
+    <datalist id="smartphone">
+        <option value="iPhone"></option>
+        <option value="Samsung"></option>
+        <option value="Xiaomi"></option>
+        <option value="OPPO"></option>
+        <option value="Realme"></option>
+    </datalist>
+
+    <select name="precio">
+        <option value="" aria-label="precio" disabled selected>Seleccione un rango de precios.</option>
+        <option value="0">0€ - 100€</option>
+        <option value="1">100€ - 200€</option>
+        <option value="2">200€ - 350€</option>
+        <option value="3">350€ - 500€</option>
+        <option value="4">500€+</option>
+    </select>
 </body>
 </html>
